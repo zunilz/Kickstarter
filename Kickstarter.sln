@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEndEngine", "FrontEndE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndAPI", "FrontEndAPI\FrontEndAPI.csproj", "{60A3946D-55F7-4317-A326-6F5376713ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{2F35ED97-ABBA-4E56-8D27-8502C18E2D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndLibrary", "FrontEndLibrary\FrontEndLibrary.csproj", "{59C4948B-88F8-494B-9762-79EBE966FC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{60A3946D-55F7-4317-A326-6F5376713ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60A3946D-55F7-4317-A326-6F5376713ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A3946D-55F7-4317-A326-6F5376713ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F35ED97-ABBA-4E56-8D27-8502C18E2D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F35ED97-ABBA-4E56-8D27-8502C18E2D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F35ED97-ABBA-4E56-8D27-8502C18E2D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F35ED97-ABBA-4E56-8D27-8502C18E2D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C4948B-88F8-494B-9762-79EBE966FC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C4948B-88F8-494B-9762-79EBE966FC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C4948B-88F8-494B-9762-79EBE966FC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C4948B-88F8-494B-9762-79EBE966FC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
