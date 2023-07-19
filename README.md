@@ -70,7 +70,9 @@ Exception Handling in C#
    	- in above case, ArithmaticException encapsulates the DivideByZeroException when we see the exception log.
    - Exception filters
    	- catch(ArgumentNullException ex) when (ex.ParamName == "param1")
-   - 
+   - Custom Exceptions
+   	- inherit from system.Exception
+   	- 
 
 
    
