@@ -26,4 +26,50 @@ Exception Handling in C#
 		
 	- System.Exception properties
 		- Message, StackTrace, Data, InnerException, Source, Hresult, Helplink, Targetite
-	- Commonly encountered exceptions
+- Commonly encountered exceptions
+	- Exception
+ 		-Represnts execution errors 
+ 	- SystemException
+  	  	- Base class for exceptions in system exceptions namespace
+     	- Do not throw, catch (except in top level handles)
+        - Do not catch framework code
+   	- InvalidOperationException
+   	- ArgumentException
+   	- 	When argument is invalid
+   	- ArgumentNullException
+   	- 	null passed to non null accepted 
+   	- ArgumentOutOfRangeException
+   	- 	outside allowed range
+   	- NullReferenceException
+   	- 	ex when string operation done on null string
+   	- 	do not throw, usually bug in code
+   	- IndexOutOfRangeException
+   	- 	do not throw, usually bug in code
+   	- StackOverflowException
+   	- 	ex: in recusrive method
+   	- 	do not throw, usually bug in code
+   	- OutOfMemeoryException
+   	-   	do not throw, usually bug in code
+ 
+  - 
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
