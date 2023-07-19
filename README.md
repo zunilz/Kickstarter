@@ -59,8 +59,18 @@ Exception Handling in C#
 	  - Guidleines in project layers
 	  - 	throw throwable exceptions in adapters and service layers.
 	  - 	In controller, catch it as Exception and log as http 500 error, and in finally block have a audit handler with execution status, invoker and timestamp etc.
-  - 
-  - 	
+  - finally block
+  	- use it for cleanup, can call IDisposable implementation here
+  - re throwing exception
+   	- use 'throw' instead of 'throw ex' as sencond option causes improper exception stack originated location details logged when we see the exception.
+   - Wrapping of exceptions
+   	- catch(DivideByZeroException ex) {
+   	-	throw new ArithmaticException("some message", ex);
+   	- }
+   	- in above case, ArithmaticException encapsulates the DivideByZeroException when we see the exception log.
+   - Exception filters
+   	- catch(ArgumentNullException ex) when (ex.ParamName == "param1")
+   - 
 
 
    
