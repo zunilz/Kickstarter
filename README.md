@@ -35,27 +35,31 @@ Exception Handling in C#
         - Do not catch framework code
    	- InvalidOperationException
    	- **ArgumentException**
-   	- 	When argument is invalid
+  	 	- 	When argument is invalid
    	- **ArgumentNullException**
-   	- 	null passed to non null accepted 
+   		- 	null passed to non null accepted 
    	- **ArgumentOutOfRangeException**
-   	- 	outside allowed range
+   		- 	outside allowed range
    	- **InvalidOperationException**
-   	- 	if the object is in inappropriate state
+   		- 	if the object is in inappropriate state
    	- NullReferenceException
-   	- 	ex when string operation done on null string
-   	- 	do not throw, usually bug in code
+	   	- 	ex when string operation done on null string
+	   	- 	do not throw, usually bug in code
    	- IndexOutOfRangeException
-   	- 	do not throw, usually bug in code
+   		- 	do not throw, usually bug in code
    	- StackOverflowException
-   	- 	ex: in recusrive method
-   	- 	do not throw, usually bug in code
+	   	- 	ex: in recusrive method
+	   	- 	do not throw, usually bug in code
    	- OutOfMemeoryException
-   	-   	do not throw, usually bug in code
+   		-   	do not throw, usually bug in code
  
   - Understanding Exception Handling
-  - 	In nested code call, exceptions bubbleup untill it is caught.
-  - 	Catch from most specific exception to least specific
+	  - 	In nested code call, exceptions bubbleup untill it is caught.
+	  - 	Catch from most specific exception to least specific
+	  - Guidleines in project layers
+	  - 	throw throwable exceptions in adapters and service layers.
+	  - 	In controller, catch it as Exception and log as http 500 error, and in finally block have a audit handler with execution status, invoker and timestamp etc.
+  - 
   - 	
 
 
