@@ -34,12 +34,14 @@ Exception Handling in C#
      	- Do not throw, catch (except in top level handles)
         - Do not catch framework code
    	- InvalidOperationException
-   	- ArgumentException
+   	- **ArgumentException**
    	- 	When argument is invalid
-   	- ArgumentNullException
+   	- **ArgumentNullException**
    	- 	null passed to non null accepted 
-   	- ArgumentOutOfRangeException
+   	- **ArgumentOutOfRangeException**
    	- 	outside allowed range
+   	- **InvalidOperationException**
+   	- 	if the object is in inappropriate state
    	- NullReferenceException
    	- 	ex when string operation done on null string
    	- 	do not throw, usually bug in code
@@ -51,7 +53,10 @@ Exception Handling in C#
    	- OutOfMemeoryException
    	-   	do not throw, usually bug in code
  
-  - 
+  - Understanding Exception Handling
+  - 	In nested code call, exceptions bubbleup untill it is caught.
+  - 	Catch from most specific exception to least specific
+  - 	
 
 
    
