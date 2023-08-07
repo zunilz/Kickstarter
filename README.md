@@ -81,7 +81,35 @@ The dependency injection container keeps track of all instances of the created s
 
 
    
-
+App insights - view logs, live, last 1 hr
+		- aks -> wrokloads -> deployment sections - dhengineWebapi 
+		-> live logs - select pods
+	
+	.Net Core
+	What's new in .NET 6
+		- Simplified development
+			- minimal APIs make it easy to quickly write smaller, faster microservices.
+		- Performance
+			- The System.IO.FileStream type has been rewritten for .NET 6 to provide better performance and reliability
+			- .NET 6 introduces Crossgen2, the successor to Crossgen, which has been removed. Crossgen and Crossgen2 are tools that provide ahead-of-time (AOT) compilation to improve the startup time of an app. Crossgen2 is written in C# instead of C++, and can perform analysis and optimization that weren't possible with the previous version
+			- Hot reload is a feature that lets you modify your app's source code and instantly apply those changes to your running app.
+			- .NET Multi-platform App UI (.NET MAUI) is still in preview, with a release candidate coming in the first quarter of 2022 and general availability (GA) in the second quarter of 2022. .NET MAUI makes it possible to build native client apps for desktop and mobile operating systems with a single codebase
+			- 
+	
+	Services
+		- framework services like addMVc, identity, efcore services
+		- application specific services which we can add
+		- builder.Services.Addxxxx();
+		-Once all services are registered, web app can be built.
+		- var app = builder.Build();
+		- has option as services.addControllers(), .addControllersWithViews
+		-
+	Reuqest pipeline
+		- app.Usexxxx()
+		- 
+	Controller Class
+		- has [ApiController]
+		- ControllerBase, Controller to inherit options
 
 
 
