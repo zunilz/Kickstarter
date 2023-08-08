@@ -112,9 +112,32 @@ App insights - view logs, live, last 1 hr
 		- ControllerBase, Controller to inherit options
 
 
+AKS
+	- Clusters -> Node Pools -> Nodes -> Pods
+ 	-AutoScaler
+  		- Horizontal Pod autoscaler
+    		- kubectl autoscale deployment myApp \
+      		- --cpu-percent=50 --min=2 --max=5
+		-
+  	-Upgrade an AKS Cluster
+   		- One or more Buffer Node is created with new version
+     		- Old nodes are drained one by one
+       		- At last buffer node is removed
+	 	- Automatic upgrades 
+   			-none(default), patch, stable, rapid
+      	- Delete / Stop AKS Cluster
+       		- 
 
-
-
+Algorithms & DS
+	- Order of growth
+ 		- 2^N : exponsential
+   		- N^3 : Cubic
+     		- N^2 : Quadratic
+       		- N Long N : Linearithmic
+	 	- N : linear
+   		- Log N : logarithmic
+     		- 1 : constant
+       - 
 
 
 
