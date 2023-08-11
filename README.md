@@ -141,6 +141,72 @@ Algorithms & DS
 
 
 
+Elastic Search
+	-Can build complex seach 
+	-Full text serach
+	-Query and analyze structured data
+	-Analyse application logs
+		-App performance management
+	-Analyse lots of data
+	-can use ML
+	-Anomality detection
+	-
+	-Data is stored as documents
+	-Documents have fields
+	-Has
+		-Logstash
+			-Data processing pipelines
+			-Input plugins could be kafka queues, mails, files, DB etc
+			-Has filter plugins
+			-Output plugins or stashes
+			
+		-X-pack
+			-adds additional features to elastic serach and kibana
+			-used for LDAP auth, RBAC etc
+			-used for monitoring
+			-Alerting on unusual activities 
+			-Reporting
+			-enables machine learning
+				-Anamoloty detection
+				-Forecasting future values like number of visitors and plan scalability accordingly
+			-Graph
+				-considers relavance with elastic search with what is related and what isn't
+				-exposes API to integrate with API
+				-plugin for kibana with visualization
+			-SQL
+				-are written in Query DSL
+				-bit verbose
+				-Can send SQL queries to ES via http or through JDBC driver
+		-Kibana
+			-Visualized data
+		-Beats
+			-Collection of data 
+			-FileBeat
+				-collecting log files,nginx, apache
+			-MetricsBeat
+				-collects system ans service metrics
+	-Setup
+		-elasticsearch-create-enrollment-token --scope kibana
+		-elasticsearch-reset-password -u elastic -i --url https://localhost:9200
+		-
+	-Clusters
+		-has Nodes
+		-Nodes store data that we add to ES
+	-Documents
+		-json objects
+		-stored/grouped as indices
+	-Index
+		-logically related
+		-Search queries run against indices
+	-Sharding
+		-divide index into separate pieces
+		-and place it in Nodes
+		-Queries can be distributed
+		-improves the throughput of index
+		-heps to scale
+	-Replication
+		-ES Natively supports replication of Shards
+		-
 
 
 
