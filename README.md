@@ -206,7 +206,25 @@ Elastic Search
 		-heps to scale
 	-Replication
 		-ES Natively supports replication of Shards
-		-
+		-Replicate shards once in non critical prod apps
+  		-Replicate shards at least twice with 2 nodes for critical apps
+    		-has primary and replica shards, if replica shard is unassigned then it needs a new node
+    	-Snapshots
+     		-ES uses snapshots as backups
+       		-restore to a given point in time
+	 	-
+   	-Node roles
+    		-Master nodes
+      		-Data nodes
+			-stores data
+		-Ingest
+  			-adding a document to index
+     			-series of steps performed when indexing documents
+		-Machine learning
+  			-used to run dedicated ml nodes
+     		-coordination
+       			-node which used only how ES distributes queries and the aggregation of results
+	  -
 
 
 
