@@ -27,3 +27,51 @@ Cloud Concepts
     -Governance - standardized env, regulatory req, audit for compliance
   -Manageability
     -Autoscalig, monitoring, template based deployments, 
+  -Capital expenditure CapEx, Operational expenditure OpEx
+  -Consumption plan
+    -pay as you use
+  -Cloud service models
+    -IaaS 
+      -Yes: Physical Infrastructure
+      -No: OS
+      -No: Network Controls
+      -No: Identity and Directory
+      -No: Application management
+      -No: Information and Data
+      -No: Devices and Accounts
+      -No & servers, N/Ws, Storage
+    -PaaS  
+      -Yes: Physical Infrastructure
+      -Yes: OS
+      -Yes/Optional: Network Controls
+      -Yes/Optional: Identity and Directory
+      -No: Application management
+      -No: Information and Data
+      -No: Devices and Accounts
+      -above + MW, Resources are virualized and can be eaily scaled uo or down, Tools(sec, datawarehouse) : App services, Cosmos DB
+    -SaaS  
+      -Yes: Physical Infrastructure
+      -Yes: OS
+      -Yes: Network Controls
+      -Yes: Identity and Directory
+      -Yes: Application management
+      -No: Information and Data
+      -No: Devices and Accounts
+      -above + provide managed/rented service like office 365, managed and accesd over internet.
+    -Serverless
+      -Extreme PaaS, no need to manage server by ourselves, but servers are used inside
+  -Shared Responsibility Model
+    -
+
+
+
+
+
+
+
+
+
+
+
+
+
