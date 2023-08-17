@@ -1,1 +1,29 @@
+ARM templates
+  -can supply values to variables used inside template config
+  -Idempotent
+  -Reuse
+Azure Advisor
+  -used to save cost, have more security etc.
+  -high availability
+  -
 
+Cloud Concepts
+  -Reliability
+    -ability to recover from failures
+    -Fault tolerance
+    -geo replication
+    -No single point of failure
+  -Scalability
+    -Horizontal
+      -Scaling out, adding additional machines, resources/vms/containers
+    -Vertical
+      -Scaling up, increasing the power cpu/memory
+  -Predictability
+    -Performance - consistence experience regardless of traffic
+    -Performance - Autoscaling, load balancing, high availability
+    -Costs - No unexpected cost, track and forecast resource usage in real time, Azure provides analytics tool
+  -Management
+    -Security - sec of cloud env, patches, maintainance, network control
+    -Governance - standardized env, regulatory req, audit for compliance
+  -Manageability
+    -Autoscalig, monitoring, template based deployments, 
