@@ -103,7 +103,19 @@ Compute
       -group of identical load balanced VMs
       -Auto scaling, large scale(upto 1000 vms)
   -App services
+    -Fully managed platform 
+    -Servers, Network and storage and other services are managed by Azure
+    -Web Apps
+    -Web Apps for Containers
+    -API Apps
+  -Azure container instances
+    -manage all dependencies of app in container itself
+    -doesn't have components related to OS, so, no maintainance like VM
+    -increased portability
+    -Efficient - deployment, maintenance
+    - Developed App -> App placed in Container -> Azure Container Instance
     -
+  -
 
 
 
