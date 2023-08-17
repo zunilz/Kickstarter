@@ -94,6 +94,16 @@ Azure Architecture
     -Deployment and managent service for azure
     -resources will be consistence when ARM is used
 
+Compute
+  -VMs
+    -No hardware
+    -is IaaS
+    -uses Azure blueprint to follow company guidelines
+    -Scale sets
+      -group of identical load balanced VMs
+      -Auto scaling, large scale(upto 1000 vms)
+  -App services
+    -
 
 
 
