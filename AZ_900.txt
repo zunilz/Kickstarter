@@ -78,7 +78,21 @@ Cloud Concepts
       -helps to avoid disruptions
       -best of private and public cloud
 
-
+Azure Architecture
+  -Regions
+    -set of datacenters close enough to each other so it doen't matter which data center handles the request
+    -each region is paired
+    -so failover to sec region is done
+    -auto replication is done
+    -one at a time is updated
+  -Availability zones
+    -Physical location with one or more data centers
+    -each region has minimum 3 zones
+  -Resource Groups
+    -a resource can exists in only one RG
+  -Azure Resource Manager (ARM)
+    -Deployment and managent service for azure
+    -resources will be consistence when ARM is used
 
 
 
