@@ -61,7 +61,22 @@ Cloud Concepts
     -Serverless
       -Extreme PaaS, no need to manage server by ourselves, but servers are used inside
   -Shared Responsibility Model
-    -
+    -as above in Iaas, PaaS, and Saas
+  -Azure marketplace
+    -has solutions and services from MS and partners.
+    -certified by MS
+    -saves time from rebuilding
+  -Cloud Architecture
+    -Private Cloud
+      -Org IT dept is responsible for cloud not MS
+      -Azure hosted in private Hardware
+      -good in security but constly to maintain 
+    -Public Cloud
+      -Fully managed by provider
+      -little control over services and infrastructure
+    -Hybrid Cloud
+      -helps to avoid disruptions
+      -best of private and public cloud
 
 
 
