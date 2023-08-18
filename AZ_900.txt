@@ -216,9 +216,24 @@ Network
         -Premium
           -Premium block blobs, page blobs, file shares (server message block SMB and Network file system NFS)
 
+Databases
 
+  -Cosmos DB
+    -While creating select API option 
+    -Globally shared and distributed
+    -add read/write regions
+  -Azure SQL
+    -Managed instance
+    -Scalability, Availability, Security
+    -Azure SQL DB and Azure SQL Managed Instance
+  -MySQL
+    -Open source
+  -PostGreSQL
+    -Open source, Horizontal scaling
 
+Authentication and Authorization
 
+  -
 
 
 
