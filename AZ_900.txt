@@ -102,6 +102,7 @@ Compute
     -Scale sets
       -group of identical load balanced VMs
       -Auto scaling, large scale(upto 1000 vms)
+      -On filure, shifts traffic
   -App services
     -Fully managed platform 
     -Servers, Network and storage and other services are managed by Azure
@@ -115,6 +116,7 @@ Compute
     -Efficient - deployment, maintenance
     - Developed App -> App placed in Container -> Azure Container Instance
   -Kubernetes
+    -Open source tool for orchestrating and managing many container images and applications 
     -AKS - managed service
     -Azure Container Regitry
       -Keep track of current valid container images
@@ -126,9 +128,42 @@ Compute
   -App Service
     -deploy Website, Web application or Web service
 
-
-
-
+Network
+  -Virtual Network (VNet)
+    -Fundamental part of Azure which connects all resoucres and services
+    -VNet addresses -> many Subnet addresses
+    -Can scale VNet
+    -VNet is in single region and single subscription
+    -Can connect two VNets using load balancer, peering VNets or using  VPN gateway
+  -Subnet
+    -Can secure different subnets under VNets
+  -VNet peering
+    -Resource in separate Networks can communicate with each other.
+  -Load Balancer
+    -receives internet network traffic and uses IP address and/or port to tranfer the traffic to one of the VM 
+    -distributes inbound flows that arrive on LB's frontend to banckend pool instances, according to rules and health probes.
+    -Inbound flows
+      -traffic from the internet or local network
+    -Frontend
+      -gatekeeper, access point for the load balancer. All traffic goes here first. Backend VMs see only one accepoint, that is front end.
+    -Backend Pool
+      -The VM instances receiving traffic
+    -Rules and health probes
+      -checks to ensure backend instance can receive the data
+    -Scenarios
+      -Internet traffic, internal networks, port forwarding, outbound traffic
+  -Virtual Network Gateway
+    -VNet has subnet gateways
+  -VPN Gateway
+    -used in hybrid model communication over the internet (need a tunnel here), Azure gateway subnet
+    -VNet gateway + VPN = VPN Gateway
+  -Application Gateway
+    -Make routing decisions based on Http request like uri path or host headers
+    -higher level load balancer
+    -Can scale up/down
+    -has e2e enryption, can disable it too
+    -zone redundancy
+    -Multi-site hosting
 
 
 
