@@ -159,12 +159,17 @@ Network
     -VNet gateway + VPN = VPN Gateway
   -Application Gateway
     -Make routing decisions based on Http request like uri path or host headers
+    -Same session traffic can be handled by multiple servers
     -higher level load balancer
     -Can scale up/down
     -has e2e enryption, can disable it too
     -zone redundancy
     -Multi-site hosting
-
+  -CDN
+    -protects backend from high loads by maintaining a edge node near to user region, cached for a period of time then refreshed
+  -Express route
+    -doesn't use public network
+    -
 
 
 
