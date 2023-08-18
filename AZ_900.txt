@@ -1,4 +1,5 @@
 ARM templates
+
   -can supply values to variables used inside template config
   -Idempotent
   -Reuse
@@ -8,6 +9,7 @@ Azure Advisor
   -
 
 Cloud Concepts
+
   -Reliability
     -ability to recover from failures
     -Fault tolerance
@@ -79,6 +81,7 @@ Cloud Concepts
       -best of private and public cloud
 
 Azure Architecture
+
   -Regions
     -set of datacenters close enough to each other so it doen't matter which data center handles the request
     -each region is paired
@@ -95,6 +98,7 @@ Azure Architecture
     -resources will be consistence when ARM is used
 
 Compute
+
   -VMs
     -No hardware
     -is IaaS
@@ -129,6 +133,7 @@ Compute
     -deploy Website, Web application or Web service
 
 Network
+
   -Virtual Network (VNet)
     -Fundamental part of Azure which connects all resoucres and services
     -VNet addresses -> many Subnet addresses
@@ -169,7 +174,47 @@ Network
     -protects backend from high loads by maintaining a edge node near to user region, cached for a period of time then refreshed
   -Express route
     -doesn't use public network
-    -
+    
+  Storage
+
+    -Storage Account
+      -unique azure namespace
+    -Container
+      -Ways to store data in Storage account
+    -Blob
+      -Storage account -> Container -> Blob
+      -Types
+        -Block 
+          - upto 4.7 TB, made up of individually managed blocks of data
+          - optimized for append operations
+        -Page
+          -8 TB, kind of virual hdd, any part of file could be accessed.
+    -Disk
+        -HDD, Standard SSD, Premium SSD, Ultra Disk
+    -File
+        -Sharing, Resillient, Managed
+        -On premise to Azure File
+    -Archive
+        -Lowest price to backup
+    -Storage Redundancy
+        -Minimum 3 copies od data is maintained in Azure 
+        -Multiple redundancy options
+          -different location scopes - single zone, multi zones, multi regions
+          -Local Red Storage - LRS - 3 copies are stored in different server racks within same location, susceptible to failure in case of zone/region blackout
+          -Zone R S - ZRS - 3 copies are stored in 3 different zones, protects against one zone blackout
+          -Geo R S - GRS - 3 copies are maintained in 2 different regions
+          -Geo Zone R S - GZRS - maximum redundancy - 3 copies are in 3 different avilability zones, can enable read access in secondary zone.
+    -Moving data
+        -AzCopy, Azure storage explorer, Azure file sync
+    -Addional migration options
+        -Azure Data Box - phsyical data box is used on prem <-> azure, shipped both ways
+        -migrate datacenter to Azure
+    -Premium performance options
+        -three premium performance options
+        -Standard
+          -Standard general-purpose v2
+        -Premium
+          -Premium block blobs, page blobs, file shares (server message block SMB and Network file system NFS)
 
 
 
