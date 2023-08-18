@@ -114,8 +114,19 @@ Compute
     -increased portability
     -Efficient - deployment, maintenance
     - Developed App -> App placed in Container -> Azure Container Instance
-    -
-  -
+  -Kubernetes
+    -AKS - managed service
+    -Azure Container Regitry
+      -Keep track of current valid container images
+      -Manages files and artifacts for containers
+      -Feeds container images to ACI and AKS
+    -AKS Cluster -> Nodes -> Pod(s) -> group of Container
+  -Functions
+    -No maintainance, process or VMs
+  -App Service
+    -deploy Website, Web application or Web service
+
+
 
 
 
