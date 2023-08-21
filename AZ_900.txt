@@ -249,8 +249,17 @@ Authentication and Authorization
       -Approved devices
     -Access decisions
       -grant/block access, Require MFA
+    -Can invite external user
+    -Azure AD Connect
+      -Sync Azure AD with Azure AD connect to continue using on-premise AD
+    -Single sign on
+    -AAD Domain Services
+      -Fully managed service to integrate with legacy system like LDAP, NTLM, Kerberos, Group policy
 
+Azure Solutions
 
+  -IoT
+    -
 
 
 
