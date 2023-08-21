@@ -233,7 +233,43 @@ Databases
 
 Authentication and Authorization
 
-  -
+  -AAD
+    -Tenant 
+      -represents the orgainization
+      - dedicated instance of AAD that an org receives when signing up for azure
+      -A user can be member of upto 500 tenants
+  -Zero trust conecpts
+  -MFA
+    -Something you know, have, are
+  -Conditional access policy
+    -Assign signals or conditions
+      -Users/Groups
+      -App to grant/deny access
+      -Location/IP
+      -Approved devices
+    -Access decisions
+      -grant/block access, Require MFA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
