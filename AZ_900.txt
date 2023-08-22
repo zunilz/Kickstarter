@@ -323,7 +323,17 @@ Security
   -Azure Dedicated Hosts
     -Hardware control
     -physical layer isolation
+    
+Monitoring and Management
+
+  -Governance
     -
+  -
+  -
+  -
+  -
+
+
 
 
     
