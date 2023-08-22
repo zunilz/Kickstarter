@@ -373,6 +373,10 @@ Monitoring and Management
       -apply azure governance - rbac, policies, blueprints
       -Deploy azure serverless services to non-azure hardware
         -Azure app service, Functions, Logic apps and more
+
+Pricing
+
+  -
   -
   -
   -
