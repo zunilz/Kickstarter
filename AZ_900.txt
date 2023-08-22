@@ -327,8 +327,52 @@ Security
 Monitoring and Management
 
   -Governance
-    -
-  -
+    -ensures policies are applied to resources are compliant
+    -Azure Policy
+    -RBAC 
+      - security principle, role definition, scope
+    -Locks - ensures subscriptions, res groups are not modified or deleted
+    -Blueprint - resource templates, rbac, policies
+    -Cloud adoption framework
+    -Azure advisor for security assistance
+  -Azure Monitor
+    -Telemetry
+      -info about how how services / resources are performing
+      -most azure services feed telemetry into azure monitor
+    -can use query language and ML
+    -3 Tools for monitoring
+      -Log analytics
+        -Azure monitor generates a lot of logs and telemetry data, Log analytics stores and queries that data to gain valuable insights
+      -Application insights
+        -Performance insights for web applications only
+        -how uses are using app, performance bottlenecks, check for website errors
+        -Alert components - alert rule, action group
+      -Azure Monitor Alerts
+      -Azure Service Health
+        -personized dashboard to highlight service issues affecting resources
+        -custom alerts, real time tracking, free service
+   -Compliance
+      -Industry regulations
+        -GDPR
+        -ISO standard
+        -NIST
+      -using azure compliance manager we get recommendations, compliance score, secure storage to maintain doc about complaince
+      -Azure govt cloud for US
+      -China region
+    -Privacy
+      -
+    -Trust
+      -Trust center - learn about security, privacy, GDPR, data location, compliance and more
+      -Service trust portal
+    -Azure ARC
+      -Manage non-azure resources as if they were in azure
+      -installs and bridges using azure tool in non azure env
+      -can manage non azure kuberenetes
+      -can deploy azure managed db services to non azure locations
+      -can manage and protect non azure servers
+      -apply azure governance - rbac, policies, blueprints
+      -Deploy azure serverless services to non-azure hardware
+        -Azure app service, Functions, Logic apps and more
   -
   -
   -
