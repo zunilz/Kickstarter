@@ -283,7 +283,50 @@ Azure Solutions
 
 Security
 
-  -
+  -Defence in Depth
+    -Several layers of defence
+      -1. Physical
+      -2. Identity and Access
+      -3. Perimeter
+      -4. Network
+      -5. Compute
+      -6. Gateway and Firewalls
+      -7. Data
+  -Securing network connectivity
+    -Firewalls - s/w or h/ws
+    -Protecting DDoS attacks
+    -NSGs - ex VM having it's own NSG    
+  -Public and private end points
+    -Service endpoints
+      -Privately connect VNet subnet to azure PaaS services
+      -Configure service to only allow traffic from service endpoint enables subnet
+    -Private endpoints have better security
+  -Microsoft defencer for Cloud
+    -provides threat alerts
+    -ready for hybrid architectures
+    -policy and compliance metrics
+    -Define policies  
+    -Respond to alerts
+    -has recommendation for less hygene security congs in resources
+  -KeyVaults
+  -Azure Information Protection
+    -Classify, track activities
+  -Microsoft Defender for Identity
+    -Monitor users for behaviours
+    -has baseline behaviour
+    -log suspicious activities
+    -Suggests changes
+  -Sentinel
+    -Behaviour analytics
+    -AWS integration
+    -Limitless speed
+  -Azure Dedicated Hosts
+    -Hardware control
+    -physical layer isolation
+    -
+
+
+    
 
 
 
