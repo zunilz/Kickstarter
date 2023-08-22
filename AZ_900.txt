@@ -259,7 +259,32 @@ Authentication and Authorization
 Azure Solutions
 
   -IoT
-    -
+  -Big Data
+    -Azure Data lake
+    -HDInsights - apache hadoop, spark and kafka
+    -Databricks
+    -Azure Synapse - data ware house solution
+  -ML
+    -Azure bot service
+    -Azure Congnitive services - vision, decision, speech
+  -Serverless
+    -Azure functions
+    -Logic apps
+    -Event grid
+  -DevOps
+    -Azure boards
+    -Azure Pipelines
+    -Azure Repos
+    -Azure testplans
+    -Azure artifacts
+    -Azure DevTest Labs
+    -Github
+    -Github actions
+
+Security
+
+  -
+
 
 
 
