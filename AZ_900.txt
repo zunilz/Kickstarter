@@ -376,10 +376,53 @@ Monitoring and Management
 
 Pricing
 
-  -
-  -
-  -
-  -
+  -Subscriptions
+      -Multiple subscriptions
+      -Billing Admin
+  -Cost management
+    -Reports and recommendations
+    -Optimization
+    -Spot VMs
+  -Pricing Factor
+    -Resource size, location
+    -Azure has Three Billing zones
+      -Ingress is free
+      -Egress data is not free
+    -Pricing Calculator
+  -Best Practices
+    -spending limtes - default limit
+    -Quotas
+      -Property limit
+    -Tags
+    -Pay-as-you-go
+      -you only pay per month for what you use
+      -expensive
+    -Reserved instances - can save more
+    -Reserved Capacity
+      -1 or 3 year commintment - azure sql, synapse, cosmos, redis cache
+    -Azure Hybrid Benefit
+      -If you already have license can use it in azure - VM, windows, sql etc.
+    -Advisor
+      -Gives best practises advice in general through recommendations
+
+Support
+
+  -Plans
+    -Basic, Developer, Standard, Professional direct, Premier
+    -Tech support, azure configs, architecture support
+  -Tickets
+  -Support Channels
+    -Azure documentation
+    -Forums, Social Media
+  -Knowledge Center
+  -SLA
+    -confidence on uptime of a service
+    -contract
+    -multiple SLAs
+  -Service Lifecycle
+    -Preview -public or private
+    -General Availability
+      -available to all customers as normal service including SLA
 
 
 
