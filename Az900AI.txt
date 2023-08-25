@@ -1,1 +1,46 @@
+ML
+  -ability to develop algorithm by itself
+  -Unsupervised learning and Supervised learning
+
+ML Model
+  -is a program that can be used to recognize a pattern in data
+  -can be used to predict fututre behaviours
+  -can be used to categorize things
+  -can be used to recognize people, objects and landmarks
+  -can be used to understands speech and text model
+  -you train a model
+  -you evaluate a model using test data to measure how accurate is it
+  -at the end deploy the model
+
+AI Workloads
+  -1. Prediction and Demand Forecasting
+  -2. Anamoly Detection
+  -3. Computer Vision
+  -4. NLP
+  -5. Conversational AI
+  
+Guiding Principles of AI
+  -Fairness
+  -Reliability and Safety
+  -Privacy and Security
+  -Inclusiveness
+  -Transparency
+  -Accountability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
