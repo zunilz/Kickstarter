@@ -27,7 +27,17 @@ Guiding Principles of AI
   -Transparency
   -Accountability
 
-
+Machine Learning on Azure
+  -Algorithms
+    -Regression - finding the relationship between variables
+  -Classification
+    -Binary classification
+    -Multi-class classification
+  -Clustering
+    -type of unsupervised learning
+    -finds groups of related things among data
+  -Feature and Labels
+    -
 
 
 
