@@ -37,7 +37,79 @@ Machine Learning on Azure
     -type of unsupervised learning
     -finds groups of related things among data
   -Feature and Labels
-    -
+    -Feature is an input variable
+    -When we are looking to predict a filed, it is called label
+  -Training the Model
+    -Split the training and validation datasets randomnly
+  -Evaluate results - Regression
+    -use the validation dataset to test the model
+    -Mean Square Error
+      -large differences are much worse than small differences
+  -Evaluate results - Classification
+    -result is to give a prediction score that subject is pasrt of the group
+    -False Positives vs False Negatives
+
+  Confusion Matrix
+    -Classification Model
+      -Actual Values and Predicted values
+      -TP, FP, FN, TN
+      -          Positive   Negative
+       Positive    TP          FP
+       Negative    FN          TN
+      -Reciever Operating Characteristic (ROC) Curve
+      -Area under the Curve (AUC)
+
+No Code ML
+  -AutoML is a tool for this
+    -Drag dataset onto designer
+    -Visualize data, Exclude cloumns if not required
+    -Clean rows with missing data
+    -Drag training models onto the canvas
+    -Once training model as all verified,Training pipeline can be converted into inference pipeline
+  -Azure ML designer
+    -need to pick the data model unlike auto ML
+
+Computer Vision Workloads
+  -Common types of computer vision
+    -image classification
+    -object detection
+    -OCR
+    -facial detection and recognition
+  -Computer Vision service
+    -Azure face service
+    -Form recognizer service
+  -Custom vision service
+
+NLP
+  -Usecases
+  -Sentiment analysis
+    -positive, negative and neutral
+  -Language modelling
+  -Speech recognition and synthesis
+  -Translation
+  -Text Analytics Service
+  -Text translation Service
+  
+Conversational AI
+  -QnA maker service
+    -to build chatbot
+  -Azure Bot Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
