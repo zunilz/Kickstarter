@@ -1,1 +1,18 @@
+Non Relational DB
+  -Key-value databases
+  -Document DB
+  -Coulmn family databases
+  -Graph databases
 
+Transactional data processing
+  -Online Transactional Processing(OLTP)
+    -CRUD operations). These operations are applied transactionally, in a way that ensures the integrity of the data stored in the database. To accomplish this, OLTP systems enforce transactions that support so-called ACID semantics
+    -OLTP systems are typically used to support live applications that process business data - often referred to as line of business (LOB) applications
+      -Atomicity
+        -each tran is treated as a single unit which succeeds completely or fails completely
+      -Consistency
+        -trans can only take the data in the database from one valid state to another
+      -Isolation
+        -concurrent transactions cannot interfere with one another, and must result in a consistent database state
+      -Durability
+        -when trans has been committed, it will remain committed.
