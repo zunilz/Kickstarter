@@ -16,3 +16,53 @@ Transactional data processing
         -concurrent transactions cannot interfere with one another, and must result in a consistent database state
       -Durability
         -when trans has been committed, it will remain committed.
+
+Data services in Azure
+  -Azure SQL
+    -Azure SQL DB
+    -Azure SQL Managed Instance
+      -a hosted instance of sql server with automated maintainance
+    -Azure SQL VM
+  -Azure DB for open-source relation DBs
+    -for MySQL
+    -for Maria DB
+    -for PostgreSQL
+      -can store relational tables also enables us to store custom data types with their own non-relational prepoerties
+  -Azure Cosmos DB
+    -is a gloabla scale non relational SQL data base system that supports multiple application programming interfaces (APIs), enabling you to store and manage data as JSON documents, key-value pairs, column-families, and graphs.
+  -Azure Storage
+   -Blob Containers
+    -File Shares
+    -Tables
+  -Azure Data Factory
+    -used by data engineers to build ETL solutions
+  -Azure Synapse Analytics
+    -unified data solution that provides a single service interface for multiple analytical capabilities
+  -Azure Databricks
+    -combines apache sparks data processing platform with SQL semantics to enable large scale data anaytics
+  -Azure HDInsight
+    -is an Azure service that provides Azure-hosted clusters for polular Apache open-source big data processing technologies
+  -Azure Stream analytics
+    -is a standalone service tat offers the same high-performance querying of log and telemetry data
+  -Microsoft Purview
+    -enterprise wide data governance and discoveraility.
+  -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
