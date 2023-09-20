@@ -46,8 +46,14 @@ Data services in Azure
     -is a standalone service tat offers the same high-performance querying of log and telemetry data
   -Microsoft Purview
     -enterprise wide data governance and discoveraility.
+  -Sql statement types
+    -DDL, DCL, DML
+    -DCL
+      -GRANT, DENY, REVOKE
+  -Azure SQL Database
+    -Single Database
+    -Elastic Pool
   -
-
 
 
 
