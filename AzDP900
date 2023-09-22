@@ -53,12 +53,59 @@ Data services in Azure
   -Azure SQL Database
     -Single Database
     -Elastic Pool
-  -
 
+Azure No SQL
+  -Azure blob storage
+    -Storage account -> Blob Container -> blobs
+    -Three types
+      -Block blobs
+      -Page blobs
+      -Append blobs
+    -Hot, Cool and Archive tiers
+  -Azure Data lake
+  -Azure Files
+  -Azure Tables
+    -Used for semi structured data
+    -key value pair
+    -Uses partion key and row key
+    -If an application adds a new row to a table, Azure ensures that the row is placed in the correct position in the table.
+  -Azure Cosmos DB
+    -
 
+Data Warehousing Architecture
+  -Data Ingestion and processing
+    -large scal e data ingestion is best implemented by creating pipelines.
+  -Analytical Data store
+    -Data Warehouse
+      -relational database in which data isstored in a schema which is optimized for data anaytics
+    -Data Lakes
+      -is a file store usually on a distributed file system for high performance data access
+  -Analytical Data model
+  -Data Visualization
 
+Azure services for analytical stores
+  -Azure Synapse analytics
+    -e2e solution  for a large scale data analytics
+  -Azure Databricks
+    -built on Apache spark
+  -Azure HDInsight
+    -supports multiple ope source data analytics cluster types
 
-
+Fundamentals of real time analytics
+  -Batch Processing
+    -can process during idle time
+  -Stream Processing
+    -used in time critical operations
+  -Real time analytics in Azure
+    -Azure stream analytics
+    -Spark structured streaming
+    -Azure Data explorer
+  -Sources for stream processing
+    -Azure Event Hubs
+    -Azure IoT Hub
+    -Azure Data Lake Store Gen 2
+      -can be used for batch processing and streaming
+    -Apache Kafka
 
 
 
