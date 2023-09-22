@@ -114,6 +114,7 @@ Azure Delta Lake
 
 Test:
 
+
 The Cassandra API is used for tabular data in a column-family storage. The Gremlin API is used for graph databases. MongoDB API stores data in the Binary JSON (BSON) format. Table is used to retrieve key-value pairs.
 The Cassandra API is queried by using SQL. The MongoDB API is queried by using MongoDB Query Language (MQL). The Gremlin API is queried by using Graph. The Table API is queried by using OData and LINQ queries.
 
@@ -139,9 +140,6 @@ Live applications are used in transactional data processing systems. LOB applica
 Database administrators maintain existing databases. Database engineers create databases. Database analysts use data from a database to make business decisions. Database users use a database.
 A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions. A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns.
 A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns. A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions.
-
-
-
 
 
 
