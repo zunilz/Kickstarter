@@ -6,7 +6,8 @@ Non Relational DB
 
 Transactional data processing
   -Online Transactional Processing(OLTP)
-    -CRUD operations). These operations are applied transactionally, in a way that ensures the integrity of the data stored in the database. To accomplish this, OLTP systems enforce transactions that support so-called ACID semantics
+    -CRUD operations). These operations are applied transactionally, in a way that ensures the integrity of the data stored in the database. 
+To accomplish this, OLTP systems enforce transactions that support so-called ACID semantics
     -OLTP systems are typically used to support live applications that process business data - often referred to as line of business (LOB) applications
       -Atomicity
         -each tran is treated as a single unit which succeeds completely or fails completely
@@ -29,7 +30,8 @@ Data services in Azure
     -for PostgreSQL
       -can store relational tables also enables us to store custom data types with their own non-relational prepoerties
   -Azure Cosmos DB
-    -is a gloabla scale non relational SQL data base system that supports multiple application programming interfaces (APIs), enabling you to store and manage data as JSON documents, key-value pairs, column-families, and graphs.
+    -is a gloabla scale non relational SQL data base system that supports multiple application programming interfaces (APIs), 
+enabling you to store and manage data as JSON documents, key-value pairs, column-families, and graphs.
   -Azure Storage
    -Blob Containers
     -File Shares
