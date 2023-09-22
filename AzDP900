@@ -175,13 +175,27 @@ Azure Cosmos DB for Apache Gremlin allows you to implement a non-relational data
 
 Analytical databases are highly denormalized to store large amounts of aggregated data and are optimized for reads. Time series workloads do not store large amounts of aggregated data. Graph workloads store hierarchical data. Transactional workloads are optimized for create, read, update, and delete (CRUD) operations.
 
+Generally speaking, data analytics comes in four types :
+Descriptive, to answer the question : What’s happening?
+Diagnostic, to answer the question: Why’s happening?
+Predictive, to answer the question: What will happen?
+Prescriptive, to answer the question: What actions should we take?
+  -Predictive analytics, broadly speaking, is a category of business intelligence that uses descriptive and predictive variables 
+    from the past to analyze and identify the likelihood of an unknown future outcome
 
+Relational databases are optimized for writes. They are optimized for consistency and availability. Advantages of relational databases include simplicity, 
+ease of data retrieval, data integrity, and flexibility.
 
+Azure file shares are deployed into storage accounts, which are top-level objects that represent a shared pool of storage.
+Azure Cosmos DB SQL API accounts provide support for querying items using the Structured Query Language (SQL) syntax.
 
+A treemap chart divides the chart area into rectangles that represent the different levels and relative sizes of the data hierarchy.
 
+Database normalization is the process of restructuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity.
+Full normalisation will generally not improve performance, in fact it can often make it worse but it will keep your data duplicate free.
 
-
-
+Analytics systems are deformalized to increase performance.
+Transactional database systems are normalized to increase data consistency.
 
 
 
