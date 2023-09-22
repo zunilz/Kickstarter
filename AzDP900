@@ -149,6 +149,34 @@ Stream processing is fast. It processes data as it arrives. Stream processing ex
 Batch processing is used to execute complex analysis. Batch processing handles a large amount of data at a time. Batch processing is usually measured in minutes and hours.
 
 Data Lake Storage, Event Hubs, and IoT Hub are sources commonly used to ingest data for stream processing. Azure SQL Database and Azure Function are outputs.
+Data Explorer is used for the analysis of large amounts of text log data, websites, and IoT devices and uses a common querying language. Data Lake Storage Gen2 is a data source, Azure Stream Analytics is used to define streaming jobs, apply a perpetual query, and write the results to an output. Azure Cosmos DB stores data.
+
+Delta Lake is an open-source storage layer that adds support to Data Lake Storage for transactional consistency.
+
+Scatter plots are used to determine a relationship or correlation between two numeric values. Pie charts visually compare different values as a proportion of a total. Line charts are used to examine trends, usually over time. Bar charts are used to compare different values for discrete categories.
+
+Power BI Desktop is used to define analytical models. Phone App is used to view Power BI reports. Power BI Service is used to serve data. Data Factory is used to run ETL jobs.
+To share data models and reports created in Power BI Desktop, they are first published to the Power BI service.
+
+Data Lake Storage Gen2 is used for storing huge amounts of data to be processed by services such as Databricks, Azure Synapse Analytics, and HDInsight. Page blobs are used for VHDs. 
+Table storage is used for two dimensional tables. 
+Azure Files is not optimized for large amounts of data to be processed by services such as HDInsight.
+Azure Files is used to share files by using NFS and SMB. 
+Data Lake Storage Gen2 is used for storing huge amounts of data to be processed, not to be shared among virtual machines. 
+Page blobs are used for VHDs.
+
+SQL is the native API in Cosmos DB. It manages data in the JSON format. The Cassandra API uses a column-family storage structure. The Table API is used to work with data in key/value tables. The Gremlin API is used with data in a graph structure.
+Azure Cosmos DB allows you to aggregate data in analytical reports without additional development. Azure SQL Database does not store data in JSON files. Blob storage and Data Lake Storage do not allow you to aggregate data for analytical reports without additional development effort.
+
+OLAP databases are used for snowflake schemas with historical data. Table storage is not suited for this type of data. Graph databases are used to store hierarchical data, such as organizational charts that have nodes and edges. OLTP databases are used for create, read, update, and delete (CRUD) operations, use the least amount of storage space, and are not for historical data in a snowflake schema.
+
+Column-family databases are used to store unstructured, tabular data comprising rows and columns. Azure Synapse Analytics Spark pools do not directly support graph or relational databases.
+Azure Cosmos DB for Apache Gremlin allows you to implement a non-relational database to model nodes and the relationships between them.
+
+Analytical databases are highly denormalized to store large amounts of aggregated data and are optimized for reads. Time series workloads do not store large amounts of aggregated data. Graph workloads store hierarchical data. Transactional workloads are optimized for create, read, update, and delete (CRUD) operations.
+
+
+
 
 
 
