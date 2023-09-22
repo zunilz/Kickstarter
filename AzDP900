@@ -109,6 +109,51 @@ Fundamentals of real time analytics
       -can be used for batch processing and streaming
     -Apache Kafka
 
+Azure Delta Lake
+  -Delta Lake is an open-source storage layer that adds support to Data Lake Storage for transactional consistency.
+
+Test:
+
+The Cassandra API is used for tabular data in a column-family storage. The Gremlin API is used for graph databases. MongoDB API stores data in the Binary JSON (BSON) format. Table is used to retrieve key-value pairs.
+The Cassandra API is queried by using SQL. The MongoDB API is queried by using MongoDB Query Language (MQL). The Gremlin API is queried by using Graph. The Table API is queried by using OData and LINQ queries.
+
+Normalization uses the least possible amount of storage. Normalization optimizes for updates, inserts, and deletes. Normalization does not optimize for complex reads and does not provide a mechanism for unstructured data.
+Normalization is a process to reduce data duplication. This can be done by separating entities into their own tables and establishing relationships between the tables.
+Creating an index allows you to search for data in a table more efficiently. A view is a virtual table based on the results of a SELECT query. It allows you to view specific rows in one or more tables. A stored procedure defines SQL statements that can be run on command.
+A view, a function, and a stored procedure allow you to reuse the query definition for a complex query that selects data from multiple tables.
+UPDATE and MERGE modify the existing data in a table. SELECT and INSERT do not affect the existing data in a table.
+
+Azure SQL Database is a serverless platform as a service (PaaS) SQL instance. SQL Managed Instance is a PaaS service, but databases are maintained in the same SQL Managed Instance cluster. SQL Server on Azure Virtual Machines running Windows or Linux are not serverless options.
+Azure Synapse Analytics is fully managed but is not a relational database such as SQL.
+Azure SQL Database allows you to provision a single database on a dedicated server and has on-demand scalability. SQL Managed Instance can support multiple databases, and SQL Server on Azure Virtual Machines is installed on a virtual machine, where each instance can support multiple databases.
+SQL Edge is optimized for IoT scenarios that must work with streaming time series data. SQL Server on Azure Virtual Machinesis is best used when you want to retain control over the server and database configuration. SQL Managed Instance is ideal for cloud migrations where you need minimal change to existing apps. Azure SQL Database is best used for new cloud solutions.
+
+A relational database is the best option for CRUD operations and uses the least amount of storage space. A key/value store is used for simple lookups based on a single key to obtain a single value. A document database uses unstructured data such as JSON, and is optimized for retrieval, not CRUD operations. A graph database is used to store hierarchical data, such as organizational charts that have nodes and edges.
+Azure Cosmos DB has a SQL API that is optimized to store and process (transform) JSON files. The SQL API allows you to query the documents by using SQL-like language. There is no additional learning curve here to complete the task. Azure Files is used as storage for any type of file. There are no built-in methods to query the file and aggregate data. Blob storage allows you to store any type of data. You must use Azure Synapse Analytics or Azure Databricks to be able to query and aggregate the data. Azure SQL Database is a relational database that keeps data in tables. You must create a process that queries the JSON files and stores them in a relational format.
+Time series databases are used to store sequential data. Table storage is not suited for time series. Graph databases are used to store hierarchical data, such as organizational charts that have nodes and edges. Azure SQL Database is the best option for create, read, update, and delete (CRUD) operations, uses the least amount of storage space, and is not optimized for time series.
+Azure Cosmos DB allows you to store data as a graph database. Azure Synapse Analytics, SQL Managed Instance, and Azure SQL Database do not.
+
+ORC and Parquet are columnar data formats. Avro is row-based, and CSV is used for delimited data.
+Isolation in transactional data processing ensures that concurrent transactions cannot interfere with one another and must result in a consistent database state.
+Live applications are used in transactional data processing systems. LOB applications are a type of live application that processes business data.
+Database administrators maintain existing databases. Database engineers create databases. Database analysts use data from a database to make business decisions. Database users use a database.
+A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions. A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns.
+A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns. A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
