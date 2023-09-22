@@ -141,7 +141,19 @@ Database administrators maintain existing databases. Database engineers create d
 A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions. A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns.
 A data engineer manages data privacy, monitoring data stores and data pipelines. A data analyst is responsible for building data models, cleaning and transforming data, and finding hidden data patterns. A database administrator manages data security, implementing backup and recovery plans and monitoring the performance of database solutions.
 
-d
+Data Factory is used to run ETL pipelines. Databricks is used for processing large amounts of data, which is supported by multiple cloud providers. HDInsight is used to process large amounts of data.
+Databricks and the Spark pool in Azure Synapse Analytics run data processing for large amounts of data by using Scala.
+Azure Synapse allows you to perform near real-time analytics on operational data. Databricks and HDInsight do not meet all the requirements. Data Lake Storage is a category of analytical data store.
+
+Stream processing is fast. It processes data as it arrives. Stream processing executes simple analytics or simply writes data to a sink. Stream processing handles small chunks of data.
+Batch processing is used to execute complex analysis. Batch processing handles a large amount of data at a time. Batch processing is usually measured in minutes and hours.
+
+Data Lake Storage, Event Hubs, and IoT Hub are sources commonly used to ingest data for stream processing. Azure SQL Database and Azure Function are outputs.
+
+
+
+
+
 
 
 
