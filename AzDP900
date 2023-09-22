@@ -197,6 +197,15 @@ Full normalisation will generally not improve performance, in fact it can often 
 Analytics systems are deformalized to increase performance.
 Transactional database systems are normalized to increase data consistency.
 
+Azure Data Studio is a cross-platform database tool for data professionals who use on-premises and cloud data platforms on Windows, macOS, and Linux.
+Azure Data Studio offers a modern editor experience with IntelliSense, code snippets, source control integration, and an integrated terminal.
+
+Azure Synapse Analytics is an platform as a service (PAAS) that combines data integration, warehousing, and analytics into one solution.
+Azure Synapse Analytics offers cloud-based, relational data warehousing services, massively parallel processing (MPP) scale-out technology, and enough computational power to efficiently manage petabytes and petabytes of data.
+
+Multi-master support for Azure Cosmos DB is now available in all public regions.
+Azure CosmosDB table API is a key-value storage hosted in the cloud. It's a part of Azure Cosmos DB, that is Microsoft's multi-model database.
+Azure Cosmos DB supports multi-region writes.
 
 
 
