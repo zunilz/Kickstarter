@@ -157,6 +157,24 @@ Language identification, speaker recognition, and voice assistants are all eleme
 Entity Linking identifies and disambiguates the identity of entities found in a text. Key phrase extraction is not used to extract entities and is used instead to extract key phrases to identify the main concepts in a text. Named entity recognition cannot provide a link for each entity to view further information. Text translation is part of the Translator service.
 Speech recognition uses audio data to analyze speech and determine recognizable patterns that can be mapped to distinct user voices. Speech synthesis is concerned with vocalizing data, usually by converting text to speech. Speech translation is concerned with multilanguage translation of speech. Language identification is used to identify languages spoken in audio when compared against a list of supported languages.
 The two main components of a conversational AI solution are a bot service and a knowledge base. Entity Linking is part of the entity recognition service, which returns links to external websites to disambiguate terms (entities) identified in a text. Key phrase extraction evaluates the text of a document and identifies its main talking points, but it is not one of two main components of a conversational AI solution.
+The Language service enables you to create a knowledge base of question-and-answer pairs that can be phrased by users in multiple ways with the same semantic meaning. A knowledge base is a required data source to enable the creation of a conversational AI solution. Azure Bot Service provides an interface through which users can interact with the knowledge base by using one or more channels. Sentiment analysis, speech synthesis, and Content Moderator are not required features.
+A bot can be used to respond to new student queries or to respond to questions via communication channels, such as email. Azure Bot Service does not have the capability to translate text. The detection of anomalies in financial transactions is a workload suited to the Anomaly Detector service. The classification of image vehicle types is a computer vision workload and is not suited to a web chatbot.
+Anomaly detection analyzes data collected over time to identify errors or unusual changes. This allows for predicting impending failures. Other answer choices represent AI capabilities unrelated to the detecting impending failures.
+Translating text between different languages from product reviews is an NLP workload that uses the Translator service and is part of Azure Cognitive Services. It can provide text translation of supported languages in real time. Performing sentiment analysis on social media data is an NLP that uses the sentiment analysis feature of the Azure Cognitive Service for Language. It can provide sentiment labels, such as negative, neutral, and positive for text-based sentences and documents.
+Data mining workloads primarily focus on the searching and indexing of data. The computer vision service can be used to extract information from images, but it is not a search and indexing solution. Conversational AI is part of natural language processing (NLP) and facilitates the creation of chatbots. Anomaly detection is not used for searching and indexing data. This is used to detect outliers in data, such as unusual credit card activity for the detection of fraud.
+OCR and Spatial Analysis are part of the computer vision service. Sentiment analysis, entity recognition, and key phrase extraction are not part of the computer vision service.
+Fairness involves evaluating and mitigating the bias introduced by the features of a model. 
+Privacy is meant to ensure that privacy provisions are included in AI solutions. Transparency provides clarity regarding the purpose of AI solutions, the way they work, as well as their limitations. 
+Accountability is focused on ensuring that AI solutions meet ethical and legal standards that are clearly defined.
+The accountability principle states that AI systems are designed to meet any ethical and legal standards that are applicable. The system must be designed to ensure that privacy of the healthcare data is of the highest importance, including anonymizing data where applicable. The fairness principle is applied to AI systems to ensure that users of the systems are treated fairly. The inclusiveness principle states that AI systems must empower people in a positive and engaging way.
+
+
+
+
+
+
+
+
 
 
 
