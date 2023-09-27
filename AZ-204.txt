@@ -1,1 +1,47 @@
+Implement Azure App Service web apps
+
+App Service plan
+  -An App Service plan defines a set of compute resources for a web app to run. One or more apps can be configured to run on the same computing resources (or in the same App Service plan).
+
+Deployment slots in azure app service
+  -Swapping is another advantageous feature about deployment slots. Instead of deploying again new release of application into production environment, we can simply swap staging slot (newly added deployment slot) with our production within same app service. The magic of deployment slots: we can do swapping with zero downtime which means, end users will notice nothing and experience no downtime.
+  -Whenever possible, use deployment slots when deploying a new production build. When using a Standard App Service Plan tier or better, you can deploy your app to a staging environment and then swap your staging and production slots. The swap operation warms up the necessary worker instances to match your production scale, thus eliminating downtime.
+
+Identity providers
+  -App Service uses federated identity, in which a third-party identity provider manages the user identities and authentication flow for you. The following identity providers are available by default:
+  Microsoft Identity Platform, Facebook, Google, Any OpenID Connect provider...
+
+authentication and authorization in App Service
+  -The authentication and authorization module runs in the same sandbox as your application code. When it's enabled, every incoming HTTP request passes through it before being handled by your application code. This module handles several things for your app:
+    
+    -Authenticates users and clients with the specified identity provider(s)
+    -Validates, stores, and refreshes OAuth tokens issued by the configured identity provider(s)
+    -Manages the authenticated session
+    -Injects identity information into HTTP request headers
+    The module runs separately from your application code and can be configured using Azure Resource Manager settings or using a configuration file.
+
+Authentication flow
+  -Without provider SDK
+  -With provider SDK
+
+Authorization behavior
+  -Allow unauthenticated requests
+  -Require authentication
+Token store
+  -App Service provides a built-in token store, which is a repository of tokens that are associated with the users of your web apps, APIs, or native mobile apps. When you enable authentication with any provider, this token store is immediately available to your app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
