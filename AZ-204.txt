@@ -127,8 +127,8 @@ Autoscale best practices
   Increase instances by 1 count when CPU% >= 80
   Decrease instances by 1 count when CPU% <= 60
 
-
-
+Explore Azure App Service deployment slots
+..........................
 
 
 
