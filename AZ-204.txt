@@ -1,4 +1,7 @@
 Implement Azure App Service web apps
+----------------------------------------
+Explore Azure App Service
+..........................
 
 App Service plan
   -An App Service plan defines a set of compute resources for a web app to run. One or more apps can be configured to run on the same computing resources (or in the same App Service plan).
@@ -36,6 +39,21 @@ static HTML web app by using Azure Cloud Shell
   cd html-docs-hello-world
   az webapp up -g $resourceGroup -n $appName --html
 
+Configure web app settings
+..........................
+Enable diagnostic logging
+  Enable application logging
+  Enable web server logging
+    -To enable logging for Windows apps in the Azure portal, navigate to your app and select App Service logs
+  Stream logs
+    -Azure portal - To stream logs in the Azure portal, navigate to your app and select Log stream.
+    -Azure CLI - To stream logs live in Cloud Shell, use the following command
+    -Local console - To stream logs in the local console, install Azure CLI and sign in to your account. Once signed in, follow the instructions shown for Azure CLI.
+  Access log files
+    -If you configure the Azure Storage blobs option for a log type, you need a client tool that works with Azure Storage.
+    -For logs stored in the App Service file system, the easiest way is to download the ZIP file in the browser at:
+      -Linux/container apps: https://<app-name>.scm.azurewebsites.net/api/logs/docker/zip
+      -Windows apps: https://<app-name>.scm.azurewebsites.net/api/dump
 
 
 
