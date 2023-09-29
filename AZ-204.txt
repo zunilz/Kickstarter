@@ -130,14 +130,64 @@ Autoscale best practices
 Explore Azure App Service deployment slots
 ..........................
 
+  Manually swapping deployment slots
+  Configure auto swap
+  Roll back and monitor a swap
+
+Route traffic in App Service
+  -You can route a portion of the traffic to another slot. This feature is useful if you need user feedback for a new update, but you're not ready to release it to production.
+  1. Route production traffic automatically
+    -A request that's routed to the "staging" slot has the cookie x-ms-routing-name=staging. A request that's routed to the production slot has the cookie x-ms-routing-name=self.
+  2. Route production traffic manually
+    -To route production traffic manually, you use the x-ms-routing-name query parameter
 
 
 
 
+Azure Functions 
+..........................
 
+For Azure Functions, you develop orchestrations by writing code and using the Durable Functions extension. 
+For Logic Apps, you create orchestrations by using a GUI or editing configuration files.
 
+Durable Functions 
+  Function chaining
+  Fan-out/fan-in
+  Async HTTP APIs
+  Monitoring
+  Human interaction
+  Aggregator (stateful entities)
 
+Compare Functions and WebJobs
+  -Azure Functions is built on the WebJobs SDK, so it shares many of the same event triggers and connections to other Azure services
+  -Trigger events
+  Functions
+    Timer
+    Azure Storage queues and blobs
+    Azure Service Bus queues and topics
+    Azure Cosmos DB
+    Azure Event Hubs
+    HTTP/WebHook (GitHub
+    Slack)
+    Azure Event Grid
+  WebJobs with WebJobs SDK
+    Timer
+    Azure Storage queues and blobs
+    Azure Service Bus queues and topics
+    Azure Cosmos DB
+    Azure Event Hubs
+    File system
+  
+hosting plans for Functions
+  Consumption plan
+  Premium plan
+  Dedicated plan	
+two other hosting options, which provide the highest amount of control and isolation in which to run your function apps.
+  App Service Environment (ASE)
+  Kubernetes (Direct or Azure Arc)
 
+Storage account requirements
+  On any plan, a function app requires a general Azure Storage account, which supports Azure Blob, Queue, Files, and Table storage. This is because Functions rely on Azure Storage for operations such as managing triggers and logging function executions, but some storage accounts don't support queues and tables
 
 
 
