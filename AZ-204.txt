@@ -145,7 +145,7 @@ Route traffic in App Service
 
 
 Azure Functions 
-..........................
+----------------------------------------
 
 For Azure Functions, you develop orchestrations by writing code and using the Durable Functions extension. 
 For Logic Apps, you create orchestrations by using a GUI or editing configuration files.
@@ -188,6 +188,97 @@ two other hosting options, which provide the highest amount of control and isola
 
 Storage account requirements
   On any plan, a function app requires a general Azure Storage account, which supports Azure Blob, Queue, Files, and Table storage. This is because Functions rely on Azure Storage for operations such as managing triggers and logging function executions, but some storage accounts don't support queues and tables
+
+
+Develop solutions that use Blob storage
+----------------------------------------
+
+Explore Azure Blob storage
+..........................
+
+Types of storage accounts
+  Standard: 
+    -This is the standard general-purpose v2 account and is recommended for most scenarios using Azure Storage.
+  Premium: 
+    -Premium accounts offer higher performance by using solid-state drives. 
+    -If you create a premium account you can choose between three account types, 
+        -block blobs, 
+        -page blobs, 
+        -file shares.
+
+Access tiers for block blob data
+  Hot access tier (default tier)
+  Cool access tier
+  Archive tier
+
+Blob storage offers three types of resources:
+  The storage account.
+    A storage account provides a unique namespace in Azure for your data. Every object that you store in Azure Storage has an address that includes your unique account name
+    http://mystorageaccount.blob.core.windows.net
+  A container in the storage account
+    A container organizes a set of blobs, similar to a directory in a file system
+    https://myaccount.blob.core.windows.net/mycontainer
+  A blob in a container
+    Block blobs 
+      store text and binary data. Block blobs are made up of blocks of data that can be managed individually. Block blobs can store up to about 190.7 TiB.
+    Append blobs 
+      are made up of blocks like block blobs, but are optimized for append operations. Append blobs are ideal for scenarios such as logging data from virtual machines.
+    Page blobs 
+      store random access files up to 8 TB in size. Page blobs store virtual hard drive (VHD) files and serve as disks for Azure virtual machines.
+  The URI for a blob is similar to: 
+    https://myaccount.blob.core.windows.net/mycontainer/myblob
+
+Azure Storage encryption key management
+  -customer-managed key: 
+    You can specify a customer-managed key to use for encrypting and decrypting all data in the storage account.
+  -customer-provided key: 
+    You can specify a customer-provided key on Blob storage operations. A client making a read or write request against Blob storage can include an encryption key on the request for granular control over how blob data is encrypted and decrypted.
+
+Manage the Azure Blob storage lifecycle 
+..........................
+
+Access tiers
+  Only the hot and cool access tiers can be set at the account level. The archive access tier can only be set at the blob level.
+  Data in the cool access tier has slightly lower availability, but still has high durability, retrieval latency, and throughput characteristics similar to hot data.
+
+Manage the data lifecycle
+  Transition blobs to a cooler storage tier (hot to cool, hot to archive, or cool to archive) to optimize for performance and cost
+  Delete blobs at the end of their lifecycles
+  Define rules to be run once per day at the storage account level
+  Apply rules to containers or a subset of blobs (using prefixes as filters)
+Rules
+  Each rule definition includes a filter set and an action set. 
+  The filter set limits rule actions to a certain set of objects within a container or objects names. 
+  The action set applies the tier or delete actions to the filtered set of objects.
+
+Rehydrate blob data from the archive tier
+  While a blob is in the archive access tier, it's considered to be offline and can't be read or modified. 
+  In order to read or modify data in an archived blob, you must first rehydrate the blob to an online tier, either the hot or cool tier.
+  two options
+    Copy an archived blob to an online tier
+    Change a blob's access tier to an online tier
+
+Work with Azure Blob storage 
+..........................
+
+Create a client object
+  Create a BlobServiceClient object
+  Create a BlobContainerClient object
+  Create a BlobClient object
+
+perform the following actions on Azure Blob storage in an app:
+  Create a container
+  Upload blobs to a container
+  List the blobs in a container
+  Download blobs
+  Delete a container
+
+
+
+
+
+
+
 
 
 
