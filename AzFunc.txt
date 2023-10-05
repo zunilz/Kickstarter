@@ -23,3 +23,34 @@ Pricing Plans
     -Reserved onstances
     -Billing as per App service plan
     -Manual scaling
+
+Docker Runtime
+  -If we don't want to run az func in azure managed function instance we
+    can use docker conntainers    
+
+When to use?
+  -good for rapid prototyping
+  -can use part of monolithic apps to have scalability : use functions here
+  -integrate different systems
+
+When to not use?
+  -not fit for long running processes
+  -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
