@@ -1,1 +1,25 @@
+Azure Function
+  Run code on demand
+  No management of underlying infrastructure
 
+Triggers
+  -Only one Trigger
+
+Bindings
+  -can have zero bindings
+  -Declarative way of connecting services/resources with az functions
+
+Pricing Plans
+  -Consumption
+    -5 mins limit of execution 
+    -Has free quota
+    -Auto scaling
+  -Premium
+    -At least one warm instance to avoid cold start
+    -VNet connectivity
+    -Always pay for pre warmed instnce
+  -App Service
+    -Runs on dedicated VMs
+    -Reserved onstances
+    -Billing as per App service plan
+    -Manual scaling
