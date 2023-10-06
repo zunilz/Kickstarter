@@ -4,6 +4,7 @@ Azure Function
 
 Triggers
   -Only one Trigger
+  -have associated data which are provided as arguments
 
 Bindings
   -can have zero bindings
@@ -57,14 +58,17 @@ functions
     -used to pass data to and from function
     -has log object
     -has trigger object
-    -
+    -has binding details
   -Function invocation history
     -in Monitor
     -need to enable app insights
   -Function's Storage Account
     -used to store function code and runtime
 
-
+host.json
+  -metadata file contains global config for all functions within function app
+local.settings.json
+  -for local dev configs
 
 
 
