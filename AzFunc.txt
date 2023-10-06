@@ -43,9 +43,12 @@ Function app
 Functions
   -Authorization level
     -Function
-      -
+      -Function key - specific to function
+      -Host key - works for all functions within function app
     -Admin
-      -needs speacial master host key which provides admin aceess to 'all' functions
+      -needs special master host key which provides admin aceess to 'all'
+      -can not be revoked, but can be renewed
+functions
   -Route template
    -allows us to define function and to add query params if needed
   -functions.json
@@ -55,8 +58,11 @@ Functions
     -has log object
     -has trigger object
     -
-
-
+  -Function invocation history
+    -in Monitor
+    -need to enable app insights
+  -Function's Storage Account
+    -used to store function code and runtime
 
 
 
