@@ -41,8 +41,11 @@ Function app
   -language is selcted here and not in each function
 
 Functions
-  -Authorization level - Admin
-    -needs speacial master host key which provides admin aceess to 'all' functions
+  -Authorization level
+    -Function
+      -
+    -Admin
+      -needs speacial master host key which provides admin aceess to 'all' functions
   -Route template
    -allows us to define function and to add query params if needed
   -functions.json
