@@ -1,1 +1,71 @@
 
+Software Architecture & Design of Modern Large Scale Systems
+
+System requirements and Architectural Drivers
+Types of Requirements (Architectural Drivers)
+  -Features of the system
+    -Func req
+  -Qulity Attributes
+    -Non Func req
+  -System Constraints
+    -Limitations and boundaries
+
+Methods of gathering requirements
+  -most powerful methos
+    -Use cases - situation/scenario in which our system is used
+    -User flows - step by step graphical respresentation of each use case 
+
+Requrement gathering steps
+  1. Identify all the actors/users in our system
+  2. Capture and describe all possible usecases / scenarios
+  3. User flow - Expand each use case through flow of events
+
+Unified Modelling Language
+  -Sequence Diagram
+    -interaction between actors and objects
+    -Time flows from top to bottom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
