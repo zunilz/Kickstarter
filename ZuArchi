@@ -2,6 +2,7 @@
 Software Architecture & Design of Modern Large Scale Systems
 
 System requirements and Architectural Drivers
+---------------------------------------------
 Types of Requirements (Architectural Drivers)
   -Features of the system
     -Func req
@@ -24,6 +25,47 @@ Unified Modelling Language
   -Sequence Diagram
     -interaction between actors and objects
     -Time flows from top to bottom
+
+System Qulity Attributes
+  -NFRs
+
+System Constraints
+  -Technical C
+    -sticking to set of fraeworks, tech
+    -supporting older browser, systems, mobiles, OS
+  -Business C
+    -Limited budget
+    -Strict deadline
+    -Security on platform
+    -usage of third party
+  -Leagal C
+    -Global or regional rules and Regulations
+    -HIPPA
+    -GDPR
+
+
+Most important Quality attributes in large scale systems
+---------------------------------------------
+
+Performance
+Scalability
+Availability
+
+Performance
+  -Response Time
+    = Processing time + Waiting time (including network time)
+  -
+
+
+
+
+
+
+
+
+
+
+
 
 
 
