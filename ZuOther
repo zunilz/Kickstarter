@@ -1,1 +1,100 @@
+ASP.NET
+-----------------------------------------
+
+Two types of validation in ASP.NET,
+  Client-Side Validation
+  Server-Side Validation
+
+Key Web Service Technologies,
+  XML- Describes only data. So, any application that understands, XML-regardless of the application's programming language or platform has the ability to format XML in a variety of ways (well-formed or valid).
+  SOAP- Provides a communication mechanism between services and applications.
+  WSDL- Offers a uniform method of describing web services to other programs.
+  UDDI- Enables the creation of searchable Web services registries.
+
+Web.Config
+  system.web
+    In the configuration hierarchy, the most common thing we will work with is the system.web section. Now we look at some of the child sections of the system.web section of Web.config file.
+    -Compilation Settings
+    -Page Settings
+    -Custom Error Settings
+    -Session State and View State Settings
+      -<Pages EnableViewState="false" />
+      -<sessionState mode="InProc" />
+      -<sessionState mode="StateServer"
+stateConnectionString= "tcpip=Yourservername:42424" />
+      -<sessionState mode="SQLServer" sqlConnectionString="cnn" />
+    -HttpHandler Settings
+    -HttpModule Settings
+    -Authentication, Authorization, Membership Provider, Role Provider and Profile Provider Settings
+ 
+  AppSettings
+    -appSettings element helps us to store the application settings information like connection strings, file paths, URLs, port numbers, custom key value pairs, etc.
+    -<appSettings>
+      	<add key="AppKey" value="APLJI12345AFAFAF89999BDFG"/>
+      </appSettings>
+
+  connectionStrings
+  ConfigSections
+    ConfigSections helps you to create your own custom configuration section that can be used with the web.config file.
+
+Programmatically Accessing the Web.config File
+  -ConfigurationManager.AppSettings["AppKey"];
+
+What are the data controls available in ASP.NET
+    Repeater Control
+    DataGrid Control
+    DataList Control
+    GridView Control
+    DetailsView
+    FormView
+    DropDownList
+    ListBox
+    RadioButtonList
+    CheckBoxList
+    BulletList etc.
+
+events in global.aspx
+  Application_Init
+  Application_Disposed
+  Application_Error
+  Application_Start
+  Application_End
+  Application_BeginReques
+
+runat
+  -If you puts runat="server" inside any of the control then you can use that control at the server side
+  -<asp:TextBox id="txt" Runat="Server"></asp:TextBox>
+  -string s = txt.Text;
+
+server-side controls
+    HTML Server controls
+    Web Server Controls
+    Validation Controls
+    User Controls
+
+
+MVC
+-----------------------------------------
+
+
+SOAP
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
