@@ -52,10 +52,16 @@ Scalability
 Availability
 
 Performance
+  Performance metrics
   -Response Time
-    = Processing time + Waiting time (including network time)
-  -
+    - Processing time + Waiting time (including network time)
+     -Measure and compare using Percentile distribution
+    -30ms at 99th percentile of response time
+  -Throughput
+    -Amount of work/data processed by our system per unit of time.
 
+Scalability
+  
 
 
 
