@@ -61,7 +61,15 @@ Performance
     -Amount of work/data processed by our system per unit of time.
 
 Scalability
-  
+  The measure of a systems ability to handle a growing amountof work, in an easy and cost
+effective way by adding additional resources to the system.
+
+  -1. Scale Up
+  -2. Scale out
+  -3. Team/Org scalability
+
+  Availability
+    
 
 
 
