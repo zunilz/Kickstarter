@@ -81,7 +81,23 @@ SOAP
 -----------------------------------------
 
 
+Branching :
 
+Release 2.x.x -> new branch -> Dev 2.x.x -> Feature -> ….
+	             -> new branch -> Release 2.x.x -> Master
+	
+Normal Process :
+
+Dev 2.3.0 -> Feature -> Origin 2.3.0 -> Master
+Origin 2.3.0 -> Dev 2.4.0
+
+Production Hot Fix plan:
+
+Release x.x.x -> new branch -> Dev x.x.x -> Feature -> ….
+                        -> new branch -> Release x.x.x -> Master
+
+Prod Release Merge
+ -> Feature -> Release x.x.x -> Master
 
 
 
