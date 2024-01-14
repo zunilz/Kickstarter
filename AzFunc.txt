@@ -117,10 +117,25 @@ Azure Durable Functions (Continued... from PS course)
 
   Running in Production
     Deploy
-      
+      Need App service plan, Function app, storage account, app insights, DB
+      Manual deploy or pipelines
     Secure
+      Authorization key for HTTP triggered starter
+      Anonymous
+      Function
+      Function key - specific to function
     Monitor
+      Invocation history, log output
+      Application Insights
+        Create an instance of Application Inights
+        Get the Instrumentation key
+        add APPINSIGHTS_INSTRUMENTATIONKEY in appSettings of function app to connect to app insights 
     Upgrade functions
+      Changes in existing O.F.'s workflow
+      Stop Orchestrations
+      Create new versions - side by side deployments
+      
+
 
       
     
