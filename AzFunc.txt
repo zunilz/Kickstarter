@@ -104,8 +104,13 @@ Durable functions
     -one api used to get real time status
 
 
-
-
+Azure Durable Functions (Continued... from PS course)
+  Eternal Orchestrations
+    To avoid huge history of event sourcing, we could use ContinueAsNew to restart the orchestration from the begining
+    Each time starter function is called to re execute O.F.
+    Same OrchestrationId is used in each starter function invoke of O.F.
+    
+    
 
 
 
